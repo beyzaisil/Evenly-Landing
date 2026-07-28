@@ -1,0 +1,42 @@
+export const CourseItems = [
+    {
+    id: 1,
+    title: "React Fundamentals",
+    description: "Learn the core concepts of React including components, props, state, and hooks.",
+    level: "Beginner",
+    lessonCount: 18,
+    buttonText: "Start Course",
+  },
+  {
+    id: 2,
+    title: "Advanced TypeScript",
+    description: "Master TypeScript with generics, utility types, advanced patterns, and best practices.",
+    level: "Advanced",
+    lessonCount: 24,
+    buttonText: "Explore Course",
+  },
+  {
+    id: 3,
+    title: "Next.js for Production",
+    description: "Build scalable full-stack applications using the latest features of Next.js.",
+    level: "Intermediate",
+    lessonCount: 20,
+    buttonText: "View Details",
+  },
+  {
+    id: 4,
+    title: "Node.js REST API",
+    description: "Create secure and maintainable REST APIs using Express, JWT, and PostgreSQL.",
+    level: "Intermediate",
+    lessonCount: 22,
+    buttonText: "Learn More",
+  },
+  {
+    id: 5,
+    title: "Tailwind CSS Mastery",
+    description: "Design modern, responsive interfaces efficiently with Tailwind CSS and reusable components.",
+    level: "Beginner",
+    lessonCount: 16,
+    buttonText: "Get Started",
+  },
+] ;
