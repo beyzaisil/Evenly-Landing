@@ -46,24 +46,33 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* Evenly marka renkleri (Yukatech kaynağından doğrulanmış) */
+  --color-ink: var(--ink);
+  --color-primary-hover: var(--primary-hover);
+  --color-brand-accent: var(--brand-accent);
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
+
+  /* Evenly primary = Yukatech'in --blue değişkeni */
   --primary: oklch(0.205 0 0);
   --primary-foreground: oklch(0.985 0 0);
+
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
+
+  /* Evenly destructive = Yukatech'in --danger değişkeni (sadece hata/uyarı için) */
   --destructive: oklch(0.577 0.245 27.325);
+
   --border: oklch(0.922 0 0);
   --input: oklch(0.922 0 0);
   --ring: oklch(0.708 0 0);
@@ -81,6 +90,11 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  /* Evenly özel marka değişkenleri */
+  --ink: #131D29;                 /* Yukatech: --primary-dark */
+  --primary-hover: #053668;       /* Yukatech: --primary-active, buton hover rengi */
+  --brand-accent: #3279A5;        /* Yukatech: --blue-foreground, ikon/ikincil vurgu */        --background: oklch(1 0 0);        --foreground: oklch(0.145 0 0);
 }
 
 .dark {
@@ -115,6 +129,10 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+
+  --ink: #E5E7EB;
+  --primary-hover: #173566;       /* Yukatech: --blue-dark, koyu temada hover */
+  --brand-accent: #97CDEE;        /* Yukatech: --blue-refresh, koyu temada açık ton */
 }
 
 @layer base {
