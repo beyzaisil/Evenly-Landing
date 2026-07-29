@@ -2,7 +2,7 @@ import { FaqAccordion } from "@/components/blocks/accordions/faq_accordion";
 
 export function FaqSection() {
   return (
-    <section className="bg-slate-50 px-4 py-20 md:py-28">
+    <section className="bg-slate-50 px-4 py-20 md:py-28" id="faq">
       <div className="mx-auto w-full max-w-4xl">
         <div className="text-center">
           <span className="inline-flex rounded-full bg-red-50 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-red-600">
