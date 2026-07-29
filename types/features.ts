@@ -4,4 +4,6 @@ id:number;
 icon:LucideIcon;
 title:string;
 description:string;
+tone : string ;
+cardBackground: string;
 };
