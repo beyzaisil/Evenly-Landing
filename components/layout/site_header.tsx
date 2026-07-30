@@ -8,10 +8,10 @@ export function SiteHeader() {
             <nav className="flex w-full max-w-7wl items-center justify-evenly">
                 <Link href="/" aria-label="Evenly-HomePage">
                     <Image
-                        src="/logo.png"
+                        src="/logo.svg"
                         alt="Evenly"
                         width={160}
-                        height={12}
+                        height={80}
                         loading="eager"
                     />
                 </Link>
