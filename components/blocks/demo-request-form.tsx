@@ -107,7 +107,7 @@ export function DemoRequestForm() {
                 <Button
                     type="submit"
                     name="demo-request-button"
-                    className="w-full mt-4 h-16 bg-red-500 text-white font-semibold rounded-2xl hover:bg-red-700 shadow-md"
+                    className="w-full mt-4 py-6 bg-red-500 text-white font-semibold rounded-2xl hover:bg-red-700 shadow-md"
                 >Demo Talep Et <ArrowRight aria-hidden="true" className="size-5"/></Button>
                 <p
                 className="mt-4 flex items-center justify-center gap-2 text-sm/relaxed text-slate-400"><LockKeyhole aria-hidden="true" className="size-4 shrink-0"/>Bilgileriniz yalnızca demo talebinizi değerlendirmek için kullanılır.</p>

@@ -1,15 +1,15 @@
-import { div, footer, nav } from "framer-motion/client";
-import Image from "next/image";
-import { Calendar, Users, Shield, Settings, CircleUser } from "lucide-react";
 import { FeatureSection } from "@/components/sections/FeatureSection";
-import { AdvantageSections } from "@/components/sections/advantage-section"
+import { DemoSection } from "@/components/sections/demo-section"
+import { FaqSection } from "@/components/sections/faq-section";
+import { FooterSection } from "@/components/sections/footer-section";
 export default function Home() {
   return (
-
     <>
-      <AdvantageSections />
+
+      <FaqSection />
+      <FeatureSection />
+      <DemoSection />
+      <FooterSection />
     </>
-
-
   );
 }
