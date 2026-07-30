@@ -10,11 +10,11 @@ export function FeatureCard({ icon: Icon, title, description, tone, cardBackgrou
           <Icon className="h-8 w-8" />
         </div>
 
-        <h3 className="mb-4 text-lg font-bold text-slate-900 border-b">
+        <h3 className="mb-4 text-lg font-bold text-gray-900 border-b">
           {title}
         </h3>
 
-        <p className="leading-8 text-slate-600">
+        <p className="leading-8 text-gray-600 ">
           {description}
         </p>
       </div>
