@@ -11,12 +11,12 @@ import { FaqItems } from "@/data/faq-items";
 
 export function FaqAccordion() {
   return (
-    <Accordion multiple className="gap-3">
+    <Accordion className="gap-3">
       {FaqItems.map((faq) => (
         <AccordionItem
           key={faq.id}
           value={String(faq.id)}
-          className="overflow-hidden rounded-2xl border border-slate-200 bg-white px-5 shadow-sm transition-all data-open:border-red-200 data-open:shadow-md"
+          className="overflow-hidden rounded-2xl border border-slate-200 bg-white px-5 shadow-sm transition-allS data-open:shadow-md"
         >
           <AccordionTrigger className="py-5 text-base font-semibold text-slate-900 hover:no-underline md:text-lg">
             {faq.question}
