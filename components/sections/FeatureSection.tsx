@@ -1,5 +1,5 @@
-import { features } from "@/lib/content";
-import { FeatureCard } from "@/components/sections/FeatureCard";
+import { features } from "@/data/content";
+import { FeatureCard } from "@/components/blocks/cards/FeatureCard";
 
 
 export function FeatureSection() {
@@ -41,3 +41,4 @@ export function FeatureSection() {
 
 
 }
+     
