@@ -2,24 +2,21 @@ import { FaqAccordion } from "@/components/blocks/accordions/faq_accordion";
 
 export function FaqSection() {
   return (
-    <section className="bg-slate-50 px-4 py-20 md:py-28" id="faq">
+    <section className="bg-slate-50 px-4 py-25 md:py-28" id="faq">
       <div className="mx-auto w-full max-w-4xl">
         <div className="text-center">
-          <span className="inline-flex rounded-full bg-red-50 px-4 py-1.5 text-xs font-bold uppercase tracking-widest text-red-600">
+          <span className="inline-flex rounded-full  bg-[#e5eef7] px-8 py-2 text-xl  text-[#2579ad]">
             Sıkça Sorulan Sorular
           </span>
 
-          <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-slate-950 md:text-4xl">
+          <h2 className="mt-5 text-3xl font-bold tracking-tight text-[#062d59] md:text-3xl">
             Merak ettiklerinizin cevapları burada
           </h2>
 
-          <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-slate-600">
-            Evenly hakkında en çok merak edilen soruları sizin için bir araya
-            getirdik.
-          </p>
+
         </div>
 
-        <div className="mt-10">
+        <div className="mt-7">
           <FaqAccordion />
         </div>
       </div>

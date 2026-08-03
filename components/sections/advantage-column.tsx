@@ -1,7 +1,6 @@
 
 import { Advantage } from "@/types/advantage"
 import { AdvantageCard } from "../blocks/cards/advantage-card";
-import { div } from "framer-motion/client";
 export function AdvantageColumn({ items }: { items: Advantage[] }) {
     return (
         <div className="relative flex flex-col gap-5 ">
