@@ -28,7 +28,7 @@ export function SiteHeader() {
                     <Button
                         type="button"
                         name="demo-request-button"
-                        className="w-full py-6 bg-red-500 text-white font-semibold rounded-lg hover:bg-red-700 shadow-md cursor-pointer"
+                        className="w-full p-6 bg-red-500 text-white font-semibold text-md rounded-lg transition-all duration-300 hover:bg-[#05305b] hover:scale-105 shadow-md cursor-pointer"
                     >Demo Talep Et <ArrowRight aria-hidden="true" className="size-5" /></Button>
                 </div>
 

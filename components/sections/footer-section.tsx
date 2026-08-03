@@ -10,11 +10,11 @@ import {
 
 export function FooterSection() {
     return (
-        <footer className="border-t bg-white">
+        <footer className="bg-white">
             <div className="mx-auto w-full max-w-7xl px-4 py-12 md:px-6 lg:px-8">
-                <div className="flex flex-col gap-10 lg:flex-row lg:justify-between">
-                    <div className="max-w-md">
-                        <div className="flex flex-col items-center lg:items-start">
+                <div className="flex flex-col gap-10 md:items-center lg:flex-row lg:justify-between lg:items-start">
+                    <div className="w-full md:max-w-md">
+                        <div className="flex flex-col place-items-center sm:items-center lg:items-start">
                             <Link href="/" aria-label="Evenly">
                                 <Image
                                     src="/logo.svg"
@@ -24,14 +24,14 @@ export function FooterSection() {
                                 />
                             </Link>
 
-                            <p className="mt-4 text-center text-sm text-gray-600 leading-7 lg:text-left">
+                            <p className="mt-4 text-center text-sm text-gray-600 leading-7  lg:text-left">
                                 Evenly, etkinlik planlama ve yönetim süreçlerini dijitalleştirerek organizasyon ekiplerine
                                 daha hızlı, düzenli ve verimli bir çalışma deneyimi sunar. Davet yönetiminden katılımcı
                                 takibine kadar tüm süreci tek platformdan yönetebilirsiniz.
                             </p>
 
                         </div>
-                        <div className="flex flex-col items-center pt-4 lg:items-start">
+                        <div className="flex flex-col items-center pt-4 md:items-center lg:items-start">
                             <p className="text-sm font-semibold text-gray-900 my-4">Bizi Takip Edin</p>
                             <div className="flex gap-3">
                                 <a href="#" aria-label="Instagram" target="_blank"
@@ -53,9 +53,9 @@ export function FooterSection() {
                             </div>
                         </div>
                     </div>
-                    <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-3">
+                    <div className="grid grid-cols-1 gap-10 sm:grid-cols-3 lg:grid-cols-3">
                         <div className="flex flex-col gap-3 items-center lg:items-start">
-                            <h2 className="w-fit border-b-2 border-red-600 pb-2 font-semibold">Platform Özellikleri</h2>
+                            <h2 className="w-fit border-b-2 border-red-600 pb-2 font-semibold">Platform Hk.</h2>
                             <a href="#advantages" className="text-sm text-gray-600 hover:text-slate-800">Avantajlar</a>
                             <a href="#features" className="text-sm text-gray-600 hover:text-slate-800">Özellikler</a>
                             <a href="#faq" className="text-sm text-gray-600 hover:text-slate-800">SSS</a>
