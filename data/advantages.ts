@@ -1,13 +1,13 @@
 import { Advantage } from "@/types/advantage";
-import { Layers2, Globe, Send, RefreshCw, ChartNoAxesCombined, Radio } from "lucide-react";
+import { Layers2, Globe, Send, RefreshCw, ChartNoAxesCombined, Radio, ShieldCheck, Users } from "lucide-react";
+
 export const AdvantageItems: Advantage[] = [
 
     {
         id: 1,
         icon: Layers2,
         title: "Merkezi ve Kontrollü Yönetim",
-        description: "Dağınık araçlar ve parçalı bilgi akışıyla çalışmayız. Katılımcı, program ve organizasyon verilerini tek merkezde toplayarak süreci daha görünür, erişilebilir ve yönetilebilir hâle getiririz."
-
+        description: "Dağınık araçlar ve parçalı bilgi akışıyla çalışmayız. Katılımcı, program ve organizasyon verilerini tek merkezde toplayarak süreci daha görünür, erişilebir ve yönetilebilir hâle getiririz."
     },
     {
         id: 2,
@@ -38,10 +38,18 @@ export const AdvantageItems: Advantage[] = [
         icon: Radio,
         title: "Anlık Görünürlük ve Takip",
         description: "Etkinlik yönetiminde güncel olmayan bilgiyle hareket etmeyiz. Katılımcı durumu, program akışı ve operasyonel detayları gerçek zamanlı takip ederek değişikliklere zamanında yanıt verilmesini sağlarız."
-    }
+    },
+    {
+        id: 7,
+        icon: ShieldCheck,
+        title: "Güvenli Veri Yönetimi",
+        description: "Katılımcı ve organizasyon verilerinin güvenliğini şansa bırakmayız. Erişim yetkilerini ve veri saklama süreçlerini kontrollü bir yapıda yöneterek olası riskleri en aza indiririz."
+    },
+    {
+        id: 8,
+        icon: Users,
+        title: "Ölçeklenebilir Organizasyon Yapısı",
+        description: "Küçük ölçekli etkinliklerle büyük organizasyonları aynı yöntemlerle yönetmeyiz. Sistemimiz, katılımcı sayısı ve organizasyon karmaşıklığı arttıkça sürecin aynı düzeyde yönetilebilir kalmasını sağlar."
+    },
 
 ];
-
-
-
-
