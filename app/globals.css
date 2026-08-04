@@ -140,7 +140,7 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50 scroll-smooth;
+    @apply scroll-smooth border-border outline-ring/50;
   }
 
   body {
@@ -150,4 +150,23 @@
   html {
     @apply font-sans;
   }
+}
+@keyframes marquee-left {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(calc(-50% - 0.625rem));
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate-marquee-left {
+    animation: marquee-left var(--marquee-duration, 25s) linear infinite;
+  }
+}
+
+.will-change-transform {
+  will-change: transform;
 }
