@@ -4,7 +4,7 @@ import { DemoCardItems } from "@/data/demo-card-items";
 export function DemoBenefits() {
   return (
     <div className="w-full">
-      <h2 className="text-2xl font-extrabold tracking-tight text-slate-950 md:text-3xl">
+      <h2 className="text-2xl font-extrabold tracking-tight text-[#05305b] md:text-3xl">
         Demo ile Neler Elde Edersiniz?
       </h2>
 
